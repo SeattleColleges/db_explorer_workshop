@@ -1,0 +1,86 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "expo-start",
+      "type": "shell",
+      "command": "npm",
+      "args": ["start"],
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": {
+          "regexp": "^.*$",
+          "file": 1,
+          "location": 2,
+          "message": 3
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^.*Metro Bundler.*$",
+          "endsPattern": "^.*Logs will appear.*$"
+        }
+      }
+    },
+    {
+      "label": "expo-start-android",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "android"],
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": {
+          "regexp": "^.*$",
+          "file": 1,
+          "location": 2,
+          "message": 3
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^.*Metro Bundler.*$",
+          "endsPattern": "^.*Logs will appear.*$"
+        }
+      }
+    },
+    {
+      "label": "expo-start-ios",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "ios"],
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": {
+          "regexp": "^.*$",
+          "file": 1,
+          "location": 2,
+          "message": 3
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^.*Metro Bundler.*$",
+          "endsPattern": "^.*Logs will appear.*$"
+        }
+      }
+    },
+    {
+      "label": "backend-start:dev",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "start:dev"],
+      "cwd": "${workspaceFolder}/../backend",
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": {
+          "regexp": "^.*$",
+          "file": 1,
+          "location": 2,
+          "message": 3
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^.*compilation in watch mode.*$",
+          "endsPattern": "^.*Watching for file changes.*$"
+        }
+      }
+    }
+  ]
+}
