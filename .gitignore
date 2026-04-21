@@ -13,6 +13,7 @@ frontend/.expo/
 
 # Environment files — never commit real credentials
 backend/.env
+frontend/.env
 frontend/.env.local
 
 # OS
