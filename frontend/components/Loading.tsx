@@ -27,7 +27,7 @@ export function Loading() {
       >
         <View style={styles.spinnerInner} />
       </Animated.View>
-      <Text style={styles.text}>Loading plants...</Text>
+      <Text style={styles.text}>Loading data...</Text>
     </View>
   );
 }
