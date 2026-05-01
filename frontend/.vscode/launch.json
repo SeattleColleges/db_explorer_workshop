@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Android Emulator",
+      "request": "launch",
+      "type": "node",
+      "preLaunchTask": "expo-start-android",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "iOS Simulator",
+      "request": "launch",
+      "type": "node",
+      "preLaunchTask": "expo-start-ios",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Expo (Metro Bundler)",
+      "request": "launch",
+      "type": "node",
+      "preLaunchTask": "expo-start",
+      "console": "integratedTerminal"
+    }
+  ]
+}

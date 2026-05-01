@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "expo": "~54.0.34",
+    "expo-linking": "~8.0.12",
+    "expo-web-browser": "~15.0.11"
+  }
+}
